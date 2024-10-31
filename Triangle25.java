@@ -12,7 +12,6 @@ public class Triangle25 {
             System.out.print("*");
          j++;
         }
-        System.out.println();
         i++;
         }
         sc.close(); 
