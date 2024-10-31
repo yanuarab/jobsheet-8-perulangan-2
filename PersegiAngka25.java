@@ -3,13 +3,13 @@ import java.util.Scanner;
 public class PersegiAngka25 {
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         System.out.print("Masukkan nilai N : ");
-        int N = scanner.nextInt();
+        int N = sc.nextInt();
 
-        if (N < 5) {
-            System.out.println("Nilai N Minimal 5.");
+        if (N < 3) {
+            System.out.println("Nilai N Minimal 3.");
         } else {
             for (int i = 0; i < N; i++) {
                 for (int j = 0; j < N; j++) {
@@ -21,6 +21,7 @@ public class PersegiAngka25 {
                 }
                 System.out.println();
             }
+            sc.close();
         }
     }
 }
