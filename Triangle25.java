@@ -11,8 +11,8 @@ public class Triangle25 {
         while (j < i) {
             System.out.print("*");
          j++;
-         
         }
+        System.out.println();
         i++;
         }
         sc.close(); 
